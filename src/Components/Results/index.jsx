@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './result.scss';
+
 function Results(props) {
  
     return (
