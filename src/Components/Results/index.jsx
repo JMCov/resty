@@ -1,12 +1,17 @@
 import React from 'react';
-
+import JSONPretty from 'react-json-pretty'
 import './result.scss';
 
 function Results(props) {
  
     return (
       <section>
-        <pre>{props.data ? JSON.stringify(props.data, undefined, 2) : null}</pre>
+        {
+          props.loading 
+          ? <div>Loading...</div> 
+          : <pre>{props.data ? <JSONPretty data={props.data}/> : null}</pre>
+        }
+       
       </section>
     );
   }
