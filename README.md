@@ -87,3 +87,8 @@ Note: update your `<Results />` component to use a 3rd party component to “pre
 ## UML
 
 ![RESTy UML](./assets/lab26-uml.PNG)
+
+## Collaborated With
+
+- Joseph Davitt
+- Adrienne Frey
